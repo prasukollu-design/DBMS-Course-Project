@@ -1,0 +1,13 @@
+PIVM Bank - updated files
+=========================
+1. Stop Tomcat (or leave it running; JSPs reload automatically, the servlet needs a restart).
+2. Extract this zip INTO your existing app folder, e.g.  tomcat/webapps/<your-app>/
+   and choose "overwrite" when asked. You should end up with:
+      <your-app>/index.jsp, login.jsp, create.jsp, transact.jsp, header.jsp, footer.jsp   (footer.jsp is NEW)
+      <your-app>/WEB-INF/classes/BankController.class
+3. Restart Tomcat.  (src/BankController.java is only the source; keep it wherever you keep your sources.)
+
+If your MySQL runs on port 3306 instead of 3307, change it in two places:
+   - header.jsp           (DB_URL near the top)
+   - src/BankController.java, then recompile (javac -cp <tomcat>/lib/servlet-api.jar -d WEB-INF/classes src/BankController.java)
+No database changes are required.

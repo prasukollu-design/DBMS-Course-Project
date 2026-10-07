@@ -1,0 +1,192 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="906pt" height="548pt" viewBox="0.00 0.00 906.00 548.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 544)">
+<title>ER</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-544 901.54,-544 901.54,4 -4,4"/>
+<!-- Accounts -->
+<g id="node1" class="node">
+<title>Accounts</title>
+<polygon fill="#e2e8f0" stroke="#334155" stroke-width="1.5" points="286.23,-288 217.35,-288 217.35,-252 286.23,-252 286.23,-288"/>
+<text xml:space="preserve" text-anchor="middle" x="251.79" y="-265.8" font-family="Times New Roman" font-size="14.00" fill="#0f172a">Accounts</text>
+</g>
+<!-- Performs -->
+<g id="node3" class="node">
+<title>Performs</title>
+<polygon fill="#fef08a" stroke="#ca8a04" stroke-width="1.5" points="437.9,-288 372.23,-270 437.9,-252 503.58,-270 437.9,-288"/>
+<text xml:space="preserve" text-anchor="middle" x="437.9" y="-265.8" font-family="Times New Roman" font-size="14.00" fill="#854d0e">Performs</text>
+</g>
+<!-- Accounts&#45;&#45;Performs -->
+<g id="edge1" class="edge">
+<title>Accounts--Performs</title>
+<path fill="none" stroke="black" stroke-width="1.5" d="M286.56,-270C309.71,-270 341.21,-270 369.4,-270"/>
+<text xml:space="preserve" text-anchor="middle" x="329.23" y="-274.2" font-family="Times New Roman" font-size="14.00" fill="#ca8a04"> 1 </text>
+</g>
+<!-- Transactions -->
+<g id="node2" class="node">
+<title>Transactions</title>
+<polygon fill="#e2e8f0" stroke="#334155" stroke-width="1.5" points="680.22,-288 592.69,-288 592.69,-252 680.22,-252 680.22,-288"/>
+<text xml:space="preserve" text-anchor="middle" x="636.45" y="-265.8" font-family="Times New Roman" font-size="14.00" fill="#0f172a">Transactions</text>
+</g>
+<!-- T_txn_id -->
+<g id="node5" class="node">
+<title>T_txn_id</title>
+<ellipse fill="#dbeafe" stroke="#2563eb" stroke-width="1.5" cx="825.38" cy="-472" rx="35.72" ry="18"/>
+<text xml:space="preserve" text-anchor="start" x="807.49" y="-468.8" font-family="Times New Roman" text-decoration="underline" font-size="14.00" fill="#1e3a8a">txn_id</text>
+</g>
+<!-- Transactions&#45;&#45;T_txn_id -->
+<g id="edge11" class="edge">
+<title>Transactions--T_txn_id</title>
+<path fill="none" stroke="black" stroke-width="1.5" d="M646.52,-288.68C663.46,-321.99 702.81,-392.23 753.22,-436 765.66,-446.8 781.91,-455.34 795.74,-461.39"/>
+</g>
+<!-- T_amount -->
+<g id="node13" class="node">
+<title>T_amount</title>
+<ellipse fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5" cx="825.38" cy="-389" rx="41.01" ry="29.42"/>
+<text xml:space="preserve" text-anchor="middle" x="825.38" y="-393.2" font-family="Times New Roman" font-size="14.00" fill="#334155">amount</text>
+<text xml:space="preserve" text-anchor="middle" x="825.38" y="-376.4" font-family="Times New Roman" font-size="14.00" fill="#334155">(&gt; 0)</text>
+</g>
+<!-- Transactions&#45;&#45;T_amount -->
+<g id="edge13" class="edge">
+<title>Transactions--T_amount</title>
+<path fill="none" stroke="black" stroke-width="1.5" d="M666.66,-288.59C701.26,-310.62 758.64,-347.15 793.82,-369.55"/>
+</g>
+<!-- T_txn_type -->
+<g id="node14" class="node">
+<title>T_txn_type</title>
+<ellipse fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5" cx="825.38" cy="-306" rx="44.83" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="825.38" y="-301.8" font-family="Times New Roman" font-size="14.00" fill="#334155">txn_type</text>
+</g>
+<!-- Transactions&#45;&#45;T_txn_type -->
+<g id="edge14" class="edge">
+<title>Transactions--T_txn_type</title>
+<path fill="none" stroke="black" stroke-width="1.5" d="M680.81,-278.35C711.98,-284.35 753.7,-292.39 784.13,-298.25"/>
+</g>
+<!-- T_related_account -->
+<g id="node15" class="node">
+<title>T_related_account</title>
+<ellipse fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5" cx="825.38" cy="-234" rx="72.16" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="825.38" y="-229.8" font-family="Times New Roman" font-size="14.00" fill="#334155">related_account</text>
+</g>
+<!-- Transactions&#45;&#45;T_related_account -->
+<g id="edge15" class="edge">
+<title>Transactions--T_related_account</title>
+<path fill="none" stroke="black" stroke-width="1.5" d="M680.81,-261.65C706.37,-256.73 739.03,-250.44 766.74,-245.1"/>
+</g>
+<!-- T_txn_date -->
+<g id="node16" class="node">
+<title>T_txn_date</title>
+<ellipse fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5" cx="825.38" cy="-162" rx="44.29" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="825.38" y="-157.8" font-family="Times New Roman" font-size="14.00" fill="#334155">txn_date</text>
+</g>
+<!-- Transactions&#45;&#45;T_txn_date -->
+<g id="edge16" class="edge">
+<title>Transactions--T_txn_date</title>
+<path fill="none" stroke="black" stroke-width="1.5" d="M665.58,-251.54C688.76,-236.55 722.69,-215.17 753.22,-198 766.97,-190.26 782.59,-182.28 795.68,-175.8"/>
+</g>
+<!-- T_account_no -->
+<g id="node17" class="node">
+<title>T_account_no</title>
+<ellipse fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5" cx="825.38" cy="-79" rx="56.94" ry="29.42"/>
+<text xml:space="preserve" text-anchor="middle" x="825.38" y="-83.2" font-family="Times New Roman" font-size="14.00" fill="#334155">account_no</text>
+<text xml:space="preserve" text-anchor="middle" x="825.38" y="-66.4" font-family="Times New Roman" font-size="14.00" fill="#334155">(FK)</text>
+</g>
+<!-- Transactions&#45;&#45;T_account_no -->
+<g id="edge12" class="edge">
+<title>Transactions--T_account_no</title>
+<path fill="none" stroke="black" stroke-width="1.5" d="M649.42,-251.67C668.87,-222.74 709.58,-165.74 753.22,-126 763.18,-116.93 775.05,-108.37 786.21,-101.1"/>
+</g>
+<!-- Performs&#45;&#45;Transactions -->
+<g id="edge2" class="edge">
+<title>Performs--Transactions</title>
+<path fill="none" stroke="black" stroke-width="1.5" d="M506.27,-270C534.72,-270 567.01,-270 592.2,-270"/>
+<text xml:space="preserve" text-anchor="middle" x="548.13" y="-274.2" font-family="Times New Roman" font-size="14.00" fill="#ca8a04"> N </text>
+</g>
+<!-- A_account_no -->
+<g id="node4" class="node">
+<title>A_account_no</title>
+<ellipse fill="#dbeafe" stroke="#2563eb" stroke-width="1.5" cx="72.18" cy="-522" rx="55.55" ry="18"/>
+<text xml:space="preserve" text-anchor="start" x="39.91" y="-518.8" font-family="Times New Roman" text-decoration="underline" font-size="14.00" fill="#1e3a8a">account_no</text>
+</g>
+<!-- A_account_no&#45;&#45;Accounts -->
+<g id="edge3" class="edge">
+<title>A_account_no--Accounts</title>
+<path fill="none" stroke="black" stroke-width="1.5" d="M110.87,-508.46C122.65,-502.87 135,-495.45 144.35,-486 202.87,-426.87 234.73,-329.15 246.01,-288.56"/>
+</g>
+<!-- A_username -->
+<g id="node6" class="node">
+<title>A_username</title>
+<ellipse fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5" cx="72.18" cy="-450" rx="48.04" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="72.18" y="-445.8" font-family="Times New Roman" font-size="14.00" fill="#334155">username</text>
+</g>
+<!-- A_username&#45;&#45;Accounts -->
+<g id="edge4" class="edge">
+<title>A_username--Accounts</title>
+<path fill="none" stroke="black" stroke-width="1.5" d="M106.66,-436.99C119.27,-431.12 133.24,-423.38 144.35,-414 188.29,-376.89 224.31,-318.22 240.91,-288.52"/>
+</g>
+<!-- A_pin -->
+<g id="node7" class="node">
+<title>A_pin</title>
+<ellipse fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5" cx="72.18" cy="-378" rx="27" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="72.18" y="-373.8" font-family="Times New Roman" font-size="14.00" fill="#334155">pin</text>
+</g>
+<!-- A_pin&#45;&#45;Accounts -->
+<g id="edge5" class="edge">
+<title>A_pin--Accounts</title>
+<path fill="none" stroke="black" stroke-width="1.5" d="M95.05,-367.83C109.32,-360.97 128.24,-351.47 144.35,-342 172.81,-325.27 203.94,-303.82 225.14,-288.7"/>
+</g>
+<!-- A_customer_name -->
+<g id="node8" class="node">
+<title>A_customer_name</title>
+<ellipse fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5" cx="72.18" cy="-306" rx="72.18" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="72.18" y="-301.8" font-family="Times New Roman" font-size="14.00" fill="#334155">customer_name</text>
+</g>
+<!-- A_customer_name&#45;&#45;Accounts -->
+<g id="edge6" class="edge">
+<title>A_customer_name--Accounts</title>
+<path fill="none" stroke="black" stroke-width="1.5" d="M129.37,-294.61C158.03,-288.8 191.95,-281.92 216.65,-276.92"/>
+</g>
+<!-- A_account_type -->
+<g id="node9" class="node">
+<title>A_account_type</title>
+<ellipse fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5" cx="72.18" cy="-234" rx="62.52" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="72.18" y="-229.8" font-family="Times New Roman" font-size="14.00" fill="#334155">account_type</text>
+</g>
+<!-- A_account_type&#45;&#45;Accounts -->
+<g id="edge7" class="edge">
+<title>A_account_type--Accounts</title>
+<path fill="none" stroke="black" stroke-width="1.5" d="M124.55,-244.41C154.16,-250.41 190.56,-257.79 216.66,-263.08"/>
+</g>
+<!-- A_balance -->
+<g id="node10" class="node">
+<title>A_balance</title>
+<ellipse fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5" cx="72.18" cy="-162" rx="40.52" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="72.18" y="-157.8" font-family="Times New Roman" font-size="14.00" fill="#334155">balance</text>
+</g>
+<!-- A_balance&#45;&#45;Accounts -->
+<g id="edge8" class="edge">
+<title>A_balance--Accounts</title>
+<path fill="none" stroke="black" stroke-width="1.5" d="M101.33,-175.22C114.59,-181.7 130.5,-189.86 144.35,-198 172.81,-214.73 203.94,-236.18 225.14,-251.3"/>
+</g>
+<!-- A_status -->
+<g id="node11" class="node">
+<title>A_status</title>
+<ellipse fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5" cx="72.18" cy="-90" rx="33.03" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="72.18" y="-85.8" font-family="Times New Roman" font-size="14.00" fill="#334155">status</text>
+</g>
+<!-- A_status&#45;&#45;Accounts -->
+<g id="edge9" class="edge">
+<title>A_status--Accounts</title>
+<path fill="none" stroke="black" stroke-width="1.5" d="M100.31,-100.16C114.4,-106.27 131.34,-115.01 144.35,-126 188.29,-163.11 224.31,-221.78 240.91,-251.48"/>
+</g>
+<!-- A_created_at -->
+<g id="node12" class="node">
+<title>A_created_at</title>
+<ellipse fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5" cx="72.18" cy="-18" rx="50.71" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="72.18" y="-13.8" font-family="Times New Roman" font-size="14.00" fill="#334155">created_at</text>
+</g>
+<!-- A_created_at&#45;&#45;Accounts -->
+<g id="edge10" class="edge">
+<title>A_created_at--Accounts</title>
+<path fill="none" stroke="black" stroke-width="1.5" d="M109.4,-30.85C121.62,-36.51 134.61,-44.16 144.35,-54 202.87,-113.13 234.73,-210.85 246.01,-251.44"/>
+</g>
+</g>
+</svg>
