@@ -8,9 +8,6 @@ Transaction Management System (Project No: 55)
 * **Pareddy Ishanth Reddy** - Roll No: 25WU0101093
 * **Mitul Saraswat** - Roll No: 25WU0101073
  
-
-*(⚠️ Important Note: The official DBMS Project Rubric specifies "Groups of Three". Please remove one name if your officially registered group only has 3 members, or leave all 4 if faculty granted an exception for PIVM!)*
-
 ## Repository Structure
 * `/Presentation`: Contains the PPT/PDF, ER diagram image, SQL file with all commands, source code of the UI, and screenshots of every UI screen (insert, delete, view, before and after).
 * `/Project-Report`: Contains the online soft copy of the final Project Report (PDF).
