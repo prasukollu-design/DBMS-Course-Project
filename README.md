@@ -1,4 +1,4 @@
-<img width="169" height="48" alt="image" src="https://github.com/user-attachments/assets/4e986c34-3bdb-4ec1-b1cc-f5aa471be750" /># Bank Account and Transaction Management System (Project No: 55)
+Transaction Management System (Project No: 55)
 
 > **A secure, enterprise-grade web application built with Java Servlets, JDBC, and MySQL to manage bank accounts, process funds transfers, and handle role-based administrative operations.**
 
